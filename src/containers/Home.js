@@ -14,7 +14,7 @@ import {Card} from 'material-ui/Card';
 
 import Modal from '../components/Modal.js'
 import DeleteModal from '../components/deleteModal.js'
-
+import EditModal from '../components/editModal.js'
 
 const style={
   style1:{
@@ -32,8 +32,12 @@ style2:{
   display: 'inline-block',
 }
 }
+const alertOE=(data)=>{
+  alert(data)
+}
 
 class Home extends Component {  
+
 
   render() {
     return (
@@ -53,6 +57,7 @@ class Home extends Component {
               <TableRowColumn>{tea.id}</TableRowColumn>
               <TableRowColumn>{tea.title}</TableRowColumn>
               <TableRowColumn ><Modal Team={tea} style={style.style2} /> <DeleteModal teamId={tea.id}/></TableRowColumn>
+              <TableRowColumn><EditModal OE={()=>this.props.alertOE()}/></TableRowColumn>
             </TableRow>
           ))}
     </TableBody>
@@ -60,7 +65,6 @@ class Home extends Component {
   </Card>
     );
 
-    // this.props.DeleteTeam(tea.id)
 
   }
 }

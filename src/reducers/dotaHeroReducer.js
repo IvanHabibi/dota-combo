@@ -45,7 +45,8 @@ const dotaHeroReducer = (state={
           })
           state = {
               ...state,
-            dota_heroes: data
+            dota_heroes: data,
+            counter:1
             }
           break;
           default: return state

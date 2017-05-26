@@ -1776,8 +1776,8 @@
       "id": 2
     },
     {
-      "title": "qwd",
-      "content": "qwdqdqwd",
+      "title": "adqwd",
+      "content": "qwdqwd",
       "heroes": [
         {
           "id": 1,
@@ -1794,6 +1794,21 @@
           ]
         },
         {
+          "id": 2,
+          "name": "npc_dota_hero_axe",
+          "localized_name": "Axe",
+          "primary_attr": "str",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/23/Axe_icon.png/176px-Axe_icon.png?version=ba9981a44f895c3655b7d6a68a7e17c4",
+          "taken": false,
+          "roles": [
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Jungler"
+          ]
+        },
+        {
           "id": 3,
           "name": "npc_dota_hero_bane",
           "localized_name": "Bane",
@@ -1807,9 +1822,107 @@
             "Nuker",
             "Durable"
           ]
+        },
+        {
+          "id": 4,
+          "name": "npc_dota_hero_bloodseeker",
+          "localized_name": "Bloodseeker",
+          "primary_attr": "agi",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/56/Bloodseeker_icon.png/176px-Bloodseeker_icon.png?version=d5e427bb5a2d7472ec1ddac25ba55cdc",
+          "taken": false,
+          "roles": [
+            "Carry",
+            "Disabler",
+            "Jungler",
+            "Nuker",
+            "Initiator"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "npc_dota_hero_crystal_maiden",
+          "localized_name": "Crystal Maiden",
+          "primary_attr": "int",
+          "attack_type": "Ranged",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/27/Crystal_Maiden_icon.png/176px-Crystal_Maiden_icon.png?version=2b145212b37ea1d4b6dd7cfb88219aef",
+          "taken": false,
+          "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Jungler"
+          ]
         }
       ],
-      "id": 3
+      "id": 6
+    },
+    {
+      "title": "asdas",
+      "content": "wdqwd",
+      "heroes": [
+        {
+          "id": 1,
+          "name": "npc_dota_hero_antimage",
+          "localized_name": "Anti-Mage",
+          "primary_attr": "agi",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8e/Anti-Mage_icon.png/176px-Anti-Mage_icon.png?version=5da70599d2b42523c1b9b3e26723a1d3",
+          "taken": false,
+          "roles": [
+            "Carry",
+            "Escape",
+            "Nuker"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "npc_dota_hero_axe",
+          "localized_name": "Axe",
+          "primary_attr": "str",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/23/Axe_icon.png/176px-Axe_icon.png?version=ba9981a44f895c3655b7d6a68a7e17c4",
+          "taken": false,
+          "roles": [
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Jungler"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "npc_dota_hero_bane",
+          "localized_name": "Bane",
+          "primary_attr": "int",
+          "attack_type": "Ranged",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c3/Bane_icon.png/176px-Bane_icon.png?version=acc25b47c4bbe985b72bc86eab535352",
+          "taken": false,
+          "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Durable"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "npc_dota_hero_bloodseeker",
+          "localized_name": "Bloodseeker",
+          "primary_attr": "agi",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/56/Bloodseeker_icon.png/176px-Bloodseeker_icon.png?version=d5e427bb5a2d7472ec1ddac25ba55cdc",
+          "taken": false,
+          "roles": [
+            "Carry",
+            "Disabler",
+            "Jungler",
+            "Nuker",
+            "Initiator"
+          ]
+        }
+      ],
+      "id": 7
     }
   ]
 }

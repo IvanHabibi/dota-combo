@@ -7,6 +7,7 @@ import TextField from 'material-ui/TextField';
 import {connect} from 'react-redux'
 import { GridTile} from 'material-ui/GridList';
 import Img from 'react-image'
+import {Redirect } from 'react-router'
 
 import {addCombo} from '../actions/teamHeroAction'
 import {resetState} from '../actions/dotaHeroAction'
@@ -39,6 +40,7 @@ class heroTeam extends Component{
   this.state={
       title:'',
       content:'',
+      status:false,
   }
 }
 
@@ -57,6 +59,10 @@ class heroTeam extends Component{
       title :'',
       content:''
     });
+    this.state.status=true
+      
+
+    
   }
 
   handleInputChange=(event)=> {
@@ -70,6 +76,7 @@ class heroTeam extends Component{
   }
 
   render(){
+    if(this.state.status===false){
     return (
         <Card style={style.style2} >
       <CardHeader
@@ -120,7 +127,9 @@ class heroTeam extends Component{
       <FlatButton label="Reset" onClick={()=>this.handleclick()}/>
     </CardActions>
   </Card>
-    )
+    )}else{
+      return (<Redirect to="/"/>)
+    }
   }
 
 
