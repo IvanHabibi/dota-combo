@@ -1,0 +1,1815 @@
+{
+  "dota_heroes": [
+    {
+      "id": 1,
+      "name": "npc_dota_hero_antimage",
+      "localized_name": "Anti-Mage",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8e/Anti-Mage_icon.png/176px-Anti-Mage_icon.png?version=5da70599d2b42523c1b9b3e26723a1d3",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "npc_dota_hero_axe",
+      "localized_name": "Axe",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/23/Axe_icon.png/176px-Axe_icon.png?version=ba9981a44f895c3655b7d6a68a7e17c4",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Jungler"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "npc_dota_hero_bane",
+      "localized_name": "Bane",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c3/Bane_icon.png/176px-Bane_icon.png?version=acc25b47c4bbe985b72bc86eab535352",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Nuker",
+        "Durable"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "npc_dota_hero_bloodseeker",
+      "localized_name": "Bloodseeker",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/56/Bloodseeker_icon.png/176px-Bloodseeker_icon.png?version=d5e427bb5a2d7472ec1ddac25ba55cdc",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Jungler",
+        "Nuker",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "npc_dota_hero_crystal_maiden",
+      "localized_name": "Crystal Maiden",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/27/Crystal_Maiden_icon.png/176px-Crystal_Maiden_icon.png?version=2b145212b37ea1d4b6dd7cfb88219aef",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Nuker",
+        "Jungler"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "npc_dota_hero_drow_ranger",
+      "localized_name": "Drow Ranger",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/80/Drow_Ranger_icon.png/176px-Drow_Ranger_icon.png?version=85b2b2db9248639579955099de048152",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "npc_dota_hero_earthshaker",
+      "localized_name": "Earthshaker",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a5/Earthshaker_icon.png/176px-Earthshaker_icon.png?version=4d50a086612413fbc4ec903471e9719e",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Initiator",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "npc_dota_hero_juggernaut",
+      "localized_name": "Juggernaut",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/03/Juggernaut_icon.png/176px-Juggernaut_icon.png?version=3dda5a4230d7ef63f25a554c0c425761",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Escape"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "npc_dota_hero_mirana",
+      "localized_name": "Mirana",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/12/Mirana_icon.png/176px-Mirana_icon.png?version=cfd08d3bc43ed677160c487c436e4391  ",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Support",
+        "Escape",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "npc_dota_hero_morphling",
+      "localized_name": "Morphling",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/7b/Morphling_icon.png/176px-Morphling_icon.png?version=6ff37ad1fc151dd69da8745dd5ed890a",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Durable",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "npc_dota_hero_nevermore",
+      "localized_name": "Shadow Fiend",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/36/Shadow_Fiend_icon.png/176px-Shadow_Fiend_icon.png?version=81105e9b1adad3d9917625de11eb32ff",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "npc_dota_hero_phantom_lancer",
+      "localized_name": "Phantom Lancer",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/81/Phantom_Lancer_icon.png/176px-Phantom_Lancer_icon.png?version=14a0615903e9a5b47511f5e53739825d",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Pusher",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "npc_dota_hero_puck",
+      "localized_name": "Puck",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/13/Puck_icon.png/176px-Puck_icon.png?version=a19c5191f6c3d14ede286b342340f538",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Disabler",
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "npc_dota_hero_pudge",
+      "localized_name": "Pudge",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c0/Pudge_icon.png/176px-Pudge_icon.png?version=7950737af8ba8cc1f407206b7b647386",
+      "taken": false,
+      "roles": [
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "npc_dota_hero_razor",
+      "localized_name": "Razor",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/66/Razor_icon.png/176px-Razor_icon.png?version=59ac50178fa5edff8257b5010a18a3eb",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Durable",
+        "Nuker",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "npc_dota_hero_sand_king",
+      "localized_name": "Sand King",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/79/Sand_King_icon.png/176px-Sand_King_icon.png?version=73e54dc7007a29cecba5973b728d17a1",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Disabler",
+        "Nuker",
+        "Escape",
+        "Jungler"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "npc_dota_hero_storm_spirit",
+      "localized_name": "Storm Spirit",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/13/Storm_Spirit_icon.png/176px-Storm_Spirit_icon.png?version=63a232a9ae646afa892ff97d3eff2aff",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Nuker",
+        "Initiator",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "npc_dota_hero_sven",
+      "localized_name": "Sven",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1b/Sven_icon.png/176px-Sven_icon.png?version=5064f8c73b59481545c7003b2f527d00",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "npc_dota_hero_tiny",
+      "localized_name": "Tiny",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/55/Tiny_icon.png/176px-Tiny_icon.png?version=7a8803c8a868972b9eb5a3fc9f16799f",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Pusher",
+        "Initiator",
+        "Durable",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "npc_dota_hero_vengefulspirit",
+      "localized_name": "Vengeful Spirit",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/20/Vengeful_Spirit_icon.png/176px-Vengeful_Spirit_icon.png?version=c5e5d962d574fef12e1364fc978d37e1",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Initiator",
+        "Disabler",
+        "Nuker",
+        "Escape"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "npc_dota_hero_windrunner",
+      "localized_name": "Windranger",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/60/Windranger_icon.png/176px-Windranger_icon.png?version=51bd37472ed602c856db4323d4311239",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Support",
+        "Disabler",
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "npc_dota_hero_zuus",
+      "localized_name": "Zeus",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/3f/Zeus_icon.png/176px-Zeus_icon.png?version=e84e01d86768a7ec5f8e3ccad5539f89",
+      "taken": false,
+      "roles": [
+        "Nuker"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "npc_dota_hero_kunkka",
+      "localized_name": "Kunkka",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c0/Kunkka_icon.png/176px-Kunkka_icon.png?version=9bf4a7dcb390e8c1fd629fc55426b45e",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "npc_dota_hero_lina",
+      "localized_name": "Lina",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/35/Lina_icon.png/176px-Lina_icon.png?version=7aabe8db07841fd5732dff0e2bc224b0",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Carry",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "npc_dota_hero_lion",
+      "localized_name": "Lion",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/b8/Lion_icon.png/176px-Lion_icon.png?version=8b1ef5c26e36880b2279eb9f583c550f",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Nuker",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "npc_dota_hero_shadow_shaman",
+      "localized_name": "Shadow Shaman",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/96/Shadow_Shaman_icon.png/176px-Shadow_Shaman_icon.png?version=4c2f0f71cbbec414ce796fb8133e11c2",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Pusher",
+        "Disabler",
+        "Nuker",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "npc_dota_hero_slardar",
+      "localized_name": "Slardar",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/7e/Slardar_icon.png/176px-Slardar_icon.png?version=9751a5d019cf55cfeff5800dc20de7ef",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Durable",
+        "Initiator",
+        "Disabler",
+        "Escape"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "npc_dota_hero_tidehunter",
+      "localized_name": "Tidehunter",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d5/Tidehunter_icon.png/176px-Tidehunter_icon.png?version=bfe3f45f81a6ed526a7809a3becccc52",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "npc_dota_hero_witch_doctor",
+      "localized_name": "Witch Doctor",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/33/Witch_Doctor_icon.png/176px-Witch_Doctor_icon.png?version=4f0d039b1866a2067f5e8743d28ed8ab",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "npc_dota_hero_lich",
+      "localized_name": "Lich",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/bb/Lich_icon.png/176px-Lich_icon.png?version=5792b8cd125e8e386c668f1cdbe2d7f4",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "npc_dota_hero_riki",
+      "localized_name": "Riki",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/7d/Riki_icon.png/176px-Riki_icon.png?version=0741050ad77ac761bde21480df5a97aa",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "npc_dota_hero_enigma",
+      "localized_name": "Enigma",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f7/Enigma_icon.png/176px-Enigma_icon.png?version=1a9bcf8690169f2e5f046caa74f245e7",
+      "taken": false,
+      "roles": [
+        "Disabler",
+        "Jungler",
+        "Initiator",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "npc_dota_hero_tinker",
+      "localized_name": "Tinker",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d1/Tinker_icon.png/176px-Tinker_icon.png?version=d89ba8e209ab93341c941eab11ebdee9",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "npc_dota_hero_sniper",
+      "localized_name": "Sniper",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/51/Sniper_icon.png/176px-Sniper_icon.png?version=1c43f66dafb1a9a0fa9626445aa47a96",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "npc_dota_hero_necrolyte",
+      "localized_name": "Necrophos",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a6/Necrophos_icon.png/176px-Necrophos_icon.png?version=999b0e140c900120766ca8c5cff1b36b",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Durable",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "npc_dota_hero_warlock",
+      "localized_name": "Warlock",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/3f/Warlock_icon.png/176px-Warlock_icon.png?version=6332f8a0dbd92d0d32419d7c02ef1d16",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Initiator",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "npc_dota_hero_beastmaster",
+      "localized_name": "Beastmaster",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d9/Beastmaster_icon.png/176px-Beastmaster_icon.png?version=f0e7f502bef1f371abe140ef2627ff7e",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Disabler",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "npc_dota_hero_queenofpain",
+      "localized_name": "Queen of Pain",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a1/Queen_of_Pain_icon.png/176px-Queen_of_Pain_icon.png?version=99f8825bb1177c65c0f30aa7a12a8b08",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Escape"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "npc_dota_hero_venomancer",
+      "localized_name": "Venomancer",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/25/Venomancer_icon.png/176px-Venomancer_icon.png?version=20b11000fa656bd49d4132bc66444b12",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Initiator",
+        "Pusher",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "npc_dota_hero_faceless_void",
+      "localized_name": "Faceless Void",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/73/Faceless_Void_icon.png/176px-Faceless_Void_icon.png?version=e98764d3ade2624d7a499d1b78123c1a",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Initiator",
+        "Disabler",
+        "Escape",
+        "Durable"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "npc_dota_hero_skeleton_king",
+      "localized_name": "Wraith King",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1e/Wraith_King_icon.png/176px-Wraith_King_icon.png?version=63dd47ce27ea9f8e7ccd917400e6e328",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Support",
+        "Durable",
+        "Disabler",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "npc_dota_hero_death_prophet",
+      "localized_name": "Death Prophet",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d7/Death_Prophet_icon.png/176px-Death_Prophet_icon.png?version=81fd98a9762e9a83160df66d2346a043",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "npc_dota_hero_phantom_assassin",
+      "localized_name": "Phantom Assassin",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8e/Phantom_Assassin_icon.png/176px-Phantom_Assassin_icon.png?version=5864979507264646c09e1758b025c05e",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "npc_dota_hero_pugna",
+      "localized_name": "Pugna",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/cd/Pugna_icon.png/176px-Pugna_icon.png?version=42a24761a847365a0d63d4c93cd4f822",
+      "taken": false,
+      "roles": [
+        "Nuker",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "npc_dota_hero_templar_assassin",
+      "localized_name": "Templar Assassin",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9c/Templar_Assassin_icon.png/176px-Templar_Assassin_icon.png?version=2eaeb80f9e1340be4e2c6bb62b2c9445",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "npc_dota_hero_viper",
+      "localized_name": "Viper",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/5f/Viper_icon.png/176px-Viper_icon.png?version=9dd81cb978f23314243397167c1deaab",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Durable",
+        "Initiator",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "npc_dota_hero_luna",
+      "localized_name": "Luna",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/7d/Luna_icon.png/176px-Luna_icon.png?version=ba506d712cd99f42783f9531e657b3e4",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "npc_dota_hero_dragon_knight",
+      "localized_name": "Dragon Knight",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/59/Dragon_Knight_icon.png/176px-Dragon_Knight_icon.png?version=99f82df68331455fb14e933c344f8d0b",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Durable",
+        "Disabler",
+        "Initiator",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "npc_dota_hero_dazzle",
+      "localized_name": "Dazzle",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/e6/Dazzle_icon.png/176px-Dazzle_icon.png?version=593e71c3c032820c6a6ba89f2b7fc137",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "npc_dota_hero_rattletrap",
+      "localized_name": "Clockwerk",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d8/Clockwerk_icon.png/176px-Clockwerk_icon.png?version=90705a60c4586359795ea34398323e85",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Disabler",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "npc_dota_hero_leshrac",
+      "localized_name": "Leshrac",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/26/Leshrac_icon.png/176px-Leshrac_icon.png?version=9c4a0bb1341a22476120ffff98b1be7e",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Support",
+        "Nuker",
+        "Pusher",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "npc_dota_hero_furion",
+      "localized_name": "Nature's Prophet",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c4/Nature%27s_Prophet_icon.png/176px-Nature%27s_Prophet_icon.png?version=290d15644606ec3ab509a1e7a9871563",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Jungler",
+        "Pusher",
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "npc_dota_hero_life_stealer",
+      "localized_name": "Lifestealer",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/2b/Lifestealer_icon.png/176px-Lifestealer_icon.png?version=e60cc7eedda142683bd010c4b09b0c43",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Durable",
+        "Jungler",
+        "Escape",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "npc_dota_hero_dark_seer",
+      "localized_name": "Dark Seer",
+      "primary_attr": "int",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c5/Dark_Seer_icon.png/176px-Dark_Seer_icon.png?version=a2c915cadc987a66089902194786e384",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Jungler",
+        "Escape",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "npc_dota_hero_clinkz",
+      "localized_name": "Clinkz",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/cb/Clinkz_icon.png/176px-Clinkz_icon.png?version=2a738a195571bdeaf31069fd100c59cc",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "npc_dota_hero_omniknight",
+      "localized_name": "Omniknight",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/e2/Omniknight_icon.png/176px-Omniknight_icon.png?version=ac6cf8d740aaa4300c16e4c7bcab1986",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "npc_dota_hero_enchantress",
+      "localized_name": "Enchantress",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/41/Enchantress_icon.png/176px-Enchantress_icon.png?version=e82af6af8d697231f1b62c867b867ea6",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Jungler",
+        "Pusher",
+        "Durable",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "npc_dota_hero_huskar",
+      "localized_name": "Huskar",
+      "primary_attr": "str",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d3/Huskar_icon.png/176px-Huskar_icon.png?version=9417a37f4839a3dffcc17a3b9fd845fb",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Durable",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "npc_dota_hero_night_stalker",
+      "localized_name": "Night Stalker",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/15/Night_Stalker_icon.png/176px-Night_Stalker_icon.png?version=8c75436cce5abba7cd3e11dfd79e1876",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "npc_dota_hero_broodmother",
+      "localized_name": "Broodmother",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/df/Broodmother_icon.png/176px-Broodmother_icon.png?version=faa905887709cd699484de78e9e989de",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "npc_dota_hero_bounty_hunter",
+      "localized_name": "Bounty Hunter",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a6/Bounty_Hunter_icon.png/176px-Bounty_Hunter_icon.png?version=f5d770a530bb8378e46bd39eb3ee99b8",
+      "taken": false,
+      "roles": [
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "npc_dota_hero_weaver",
+      "localized_name": "Weaver",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/09/Weaver_icon.png/176px-Weaver_icon.png?version=6d6e13679323717b444a9bb796683537",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "npc_dota_hero_jakiro",
+      "localized_name": "Jakiro",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/2f/Jakiro_icon.png/176px-Jakiro_icon.png?version=963def5bd835967a4614c788a3700c37",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Pusher",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "npc_dota_hero_batrider",
+      "localized_name": "Batrider",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f2/Batrider_icon.png/176px-Batrider_icon.png?version=13bbc453342cdf159e019a57415a0017",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Jungler",
+        "Disabler",
+        "Escape"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "npc_dota_hero_chen",
+      "localized_name": "Chen",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/61/Chen_icon.png/176px-Chen_icon.png?version=37372e44ccafa55a11f1b93e301ba937",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Jungler",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "npc_dota_hero_spectre",
+      "localized_name": "Spectre",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/ff/Spectre_icon.png/176px-Spectre_icon.png?version=f73472c7f132cbb2e4bde415e564057d",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Durable",
+        "Escape"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "npc_dota_hero_ancient_apparition",
+      "localized_name": "Ancient Apparition",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/67/Ancient_Apparition_icon.png/176px-Ancient_Apparition_icon.png?version=4b2114c9281a10e87352ad8c53184a7e",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "npc_dota_hero_doom_bringer",
+      "localized_name": "Doom",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/40/Doom_icon.png/176px-Doom_icon.png?version=67d74775c1f71259988c70dfdd5a4bef",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "npc_dota_hero_ursa",
+      "localized_name": "Ursa",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/40/Ursa_icon.png/176px-Ursa_icon.png?version=61b88e430afaec665683ea0a28e5fd43",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Jungler",
+        "Durable",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "npc_dota_hero_spirit_breaker",
+      "localized_name": "Spirit Breaker",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/df/Spirit_Breaker_icon.png/176px-Spirit_Breaker_icon.png?version=e05a84ffb54d988c714973c61a9d6049",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Initiator",
+        "Disabler",
+        "Durable",
+        "Escape"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "npc_dota_hero_gyrocopter",
+      "localized_name": "Gyrocopter",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/4f/Gyrocopter_icon.png/176px-Gyrocopter_icon.png?version=49f8338b65240a9d4178f4390082a65f",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "npc_dota_hero_alchemist",
+      "localized_name": "Alchemist",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/fe/Alchemist_icon.png/176px-Alchemist_icon.png?version=9e3c0444345c98016470813a4b53149a",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Support",
+        "Durable",
+        "Disabler",
+        "Initiator",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "npc_dota_hero_invoker",
+      "localized_name": "Invoker",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/00/Invoker_icon.png/176px-Invoker_icon.png?version=7135fae36c1547858a2a18e18f87a2fe",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Disabler",
+        "Escape",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "npc_dota_hero_silencer",
+      "localized_name": "Silencer",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9f/Silencer_icon.png/176px-Silencer_icon.png?version=1d8374495efabdcb166e2d91d6db46cb",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Support",
+        "Disabler",
+        "Initiator",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "npc_dota_hero_obsidian_destroyer",
+      "localized_name": "Outworld Devourer",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/99/Outworld_Devourer_icon.png/176px-Outworld_Devourer_icon.png?version=da2c358a6e44f0a8f1456b53c2fd762a",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "npc_dota_hero_lycan",
+      "localized_name": "Lycan",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/d/d6/Lycan_icon.png/176px-Lycan_icon.png?version=13c5aedd8a26bfb08f5572c99bd12d87",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Jungler",
+        "Durable",
+        "Escape"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "npc_dota_hero_brewmaster",
+      "localized_name": "Brewmaster",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1e/Brewmaster_icon.png/176px-Brewmaster_icon.png?version=fb292911b10c8aaef0d58cc5664a130f",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "npc_dota_hero_shadow_demon",
+      "localized_name": "Shadow Demon",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f3/Shadow_Demon_icon.png/176px-Shadow_Demon_icon.png?version=62cbbc4b66a9683dd593775648bfa074",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Initiator",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "npc_dota_hero_lone_druid",
+      "localized_name": "Lone Druid",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/5d/Lone_Druid_icon.png/176px-Lone_Druid_icon.png?version=59a99090d2c1f11f9ce88f873949a54d",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Jungler",
+        "Durable"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "npc_dota_hero_chaos_knight",
+      "localized_name": "Chaos Knight",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/fe/Chaos_Knight_icon.png/176px-Chaos_Knight_icon.png?version=f28e62a976c30d895177dfac9d7d0446",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Durable",
+        "Pusher",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "npc_dota_hero_meepo",
+      "localized_name": "Meepo",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/85/Meepo_icon.png/176px-Meepo_icon.png?version=ebe94dfd03c3cd28236ab3292469a9b7",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Nuker",
+        "Disabler",
+        "Initiator",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "npc_dota_hero_treant",
+      "localized_name": "Treant Protector",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/3f/Treant_Protector_icon.png/176px-Treant_Protector_icon.png?version=e058e6b394ef26d36c9a09bb7855934c",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Initiator",
+        "Durable",
+        "Disabler",
+        "Escape"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "npc_dota_hero_ogre_magi",
+      "localized_name": "Ogre Magi",
+      "primary_attr": "int",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/e0/Ogre_Magi_icon.png/176px-Ogre_Magi_icon.png?version=0b29f9b2f7eb83c8411b9f8788f1cff3",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Disabler",
+        "Durable",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "npc_dota_hero_undying",
+      "localized_name": "Undying",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/61/Undying_icon.png/176px-Undying_icon.png?version=39c8446f14b22a77d0e81d7c4504ae17",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Durable",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "npc_dota_hero_rubick",
+      "localized_name": "Rubick",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8a/Rubick_icon.png/176px-Rubick_icon.png?version=6fd1bc572204ea91f8a6aed1a0eea395",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "npc_dota_hero_disruptor",
+      "localized_name": "Disruptor",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/97/Disruptor_icon.png/176px-Disruptor_icon.png?version=f42699154488bdfc97d06125a8112ee8",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Nuker",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "npc_dota_hero_nyx_assassin",
+      "localized_name": "Nyx Assassin",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/fa/Nyx_Assassin_icon.png/176px-Nyx_Assassin_icon.png?version=26678ca7a31ed81062797cffeae78742",
+      "taken": false,
+      "roles": [
+        "Disabler",
+        "Nuker",
+        "Initiator",
+        "Escape"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "npc_dota_hero_naga_siren",
+      "localized_name": "Naga Siren",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/6/60/Naga_Siren_icon.png/176px-Naga_Siren_icon.png?version=c80d5b5dfecb82d8b0af02b9431ae6c6",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Support",
+        "Pusher",
+        "Disabler",
+        "Initiator",
+        "Escape"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "npc_dota_hero_keeper_of_the_light",
+      "localized_name": "Keeper of the Light",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/b9/Keeper_of_the_Light_icon.png/176px-Keeper_of_the_Light_icon.png?version=13416c4b9de071bb4f93f3213524ed36",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Disabler",
+        "Jungler"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "npc_dota_hero_wisp",
+      "localized_name": "Io",
+      "primary_attr": "str",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8d/Io_icon.png/176px-Io_icon.png?version=7e17163f66337c4d412af25fc96a05f9",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 92,
+      "name": "npc_dota_hero_visage",
+      "localized_name": "Visage",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9e/Visage_icon.png/176px-Visage_icon.png?version=24d13dd387b590fddee75431b85bfe02",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Durable",
+        "Disabler",
+        "Pusher"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "npc_dota_hero_slark",
+      "localized_name": "Slark",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/aa/Slark_icon.png/176px-Slark_icon.png?version=3d65ae1f11ab67996376b6db2ca8c282",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "npc_dota_hero_medusa",
+      "localized_name": "Medusa",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/cc/Medusa_icon.png/176px-Medusa_icon.png?version=c29933dfa7b96f8f2b215eb47e32e70d",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Durable"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "npc_dota_hero_troll_warlord",
+      "localized_name": "Troll Warlord",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f0/Troll_Warlord_icon.png/176px-Troll_Warlord_icon.png?version=287d98b20dffcf79b88ca4cfda1bbfc7",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Disabler",
+        "Durable"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "npc_dota_hero_centaur",
+      "localized_name": "Centaur Warrunner",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/e/ed/Centaur_Warrunner_icon.png/176px-Centaur_Warrunner_icon.png?version=a30e0d861de5fee1802e5cb381b262a0",
+      "taken": false,
+      "roles": [
+        "Durable",
+        "Initiator",
+        "Disabler",
+        "Nuker",
+        "Escape"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "npc_dota_hero_magnataur",
+      "localized_name": "Magnus",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/ba/Magnus_icon.png/176px-Magnus_icon.png?version=68a3b79e227e9b717265a47d47514256",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Disabler",
+        "Nuker",
+        "Escape"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "npc_dota_hero_shredder",
+      "localized_name": "Timbersaw",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/9a/Timbersaw_icon.png/176px-Timbersaw_icon.png?version=9c4ebe91390a0928c4f0050ec306d2d9",
+      "taken": false,
+      "roles": [
+        "Nuker",
+        "Durable",
+        "Escape"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "npc_dota_hero_bristleback",
+      "localized_name": "Bristleback",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/4d/Bristleback_icon.png/176px-Bristleback_icon.png?version=21e1c057ca6c3f9a1f248f0b243e081b",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Durable",
+        "Initiator",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "npc_dota_hero_tusk",
+      "localized_name": "Tusk",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/ce/Tusk_icon.png/176px-Tusk_icon.png?version=e82fb69a28fdd21826b9829eaa582654",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "npc_dota_hero_skywrath_mage",
+      "localized_name": "Skywrath Mage",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/bf/Skywrath_Mage_icon.png/176px-Skywrath_Mage_icon.png?version=8fb7f25c0ff88bc7524e0ff8a250ee0f",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "npc_dota_hero_abaddon",
+      "localized_name": "Abaddon",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/26/Abaddon_icon.png/176px-Abaddon_icon.png?version=1549ab7eb5d09c9a5e489ec0b4941239",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Carry",
+        "Durable"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "npc_dota_hero_elder_titan",
+      "localized_name": "Elder Titan",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/1a/Elder_Titan_icon.png/176px-Elder_Titan_icon.png?version=f2091068755c09fe200f5c6b1a16e970",
+      "taken": false,
+      "roles": [
+        "Initiator",
+        "Disabler",
+        "Nuker",
+        "Durable"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "npc_dota_hero_legion_commander",
+      "localized_name": "Legion Commander",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/a2/Legion_Commander_icon.png/176px-Legion_Commander_icon.png?version=55515447419ae3c2cce4e748d0a4d8eb",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Disabler",
+        "Initiator",
+        "Durable",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "npc_dota_hero_techies",
+      "localized_name": "Techies",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/fa/Techies_icon.png/176px-Techies_icon.png?version=7126107113f7c567aa33110f755ac86b",
+      "taken": false,
+      "roles": [
+        "Nuker",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "npc_dota_hero_ember_spirit",
+      "localized_name": "Ember Spirit",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/91/Ember_Spirit_icon.png/176px-Ember_Spirit_icon.png?version=6e4f68f8475b6717f19b5a03c5ae4dbd",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Nuker",
+        "Disabler",
+        "Initiator"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "npc_dota_hero_earth_spirit",
+      "localized_name": "Earth Spirit",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/b/be/Earth_Spirit_icon.png/176px-Earth_Spirit_icon.png?version=16357876a0348116be0ed19864383a22",
+      "taken": false,
+      "roles": [
+        "Nuker",
+        "Escape",
+        "Disabler",
+        "Initiator",
+        "Durable"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "npc_dota_hero_abyssal_underlord",
+      "localized_name": "Underlord",
+      "primary_attr": "str",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/18/Underlord_icon.png/176px-Underlord_icon.png?version=fd98e4d453a1de88022266c790db26e9",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Disabler",
+        "Durable",
+        "Escape"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "npc_dota_hero_terrorblade",
+      "localized_name": "Terrorblade",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/52/Terrorblade_icon.png/176px-Terrorblade_icon.png?version=382ccb7f2c2e6ca32502d3db8674b335",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Pusher",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "npc_dota_hero_phoenix",
+      "localized_name": "Phoenix",
+      "primary_attr": "str",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/1/14/Phoenix_icon.png/176px-Phoenix_icon.png?version=d9ebda30416146ef2163797c175e72d4",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Initiator",
+        "Escape",
+        "Disabler"
+      ]
+    },
+    {
+      "id": 111,
+      "name": "npc_dota_hero_oracle",
+      "localized_name": "Oracle",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/72/Oracle_icon.png/176px-Oracle_icon.png?version=f9eabbe27f63b828b67772531c55378a",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Nuker",
+        "Disabler",
+        "Escape"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "npc_dota_hero_winter_wyvern",
+      "localized_name": "Winter Wyvern",
+      "primary_attr": "int",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/4/4a/Winter_Wyvern_icon.png/176px-Winter_Wyvern_icon.png?version=20570975da7985450297a456a40869a9",
+      "taken": false,
+      "roles": [
+        "Support",
+        "Disabler",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "npc_dota_hero_arc_warden",
+      "localized_name": "Arc Warden",
+      "primary_attr": "agi",
+      "attack_type": "Ranged",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/0/07/Arc_Warden_icon.png/176px-Arc_Warden_icon.png?version=fa5cda160af3f10df257d67258e8f6e4",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Nuker"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "npc_dota_hero_monkey_king",
+      "localized_name": "Monkey King",
+      "primary_attr": "agi",
+      "attack_type": "Melee",
+      "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/7b/Monkey_King_icon.png/176px-Monkey_King_icon.png?version=bde245bfbe926b8cbada02ba7608d3fa",
+      "taken": false,
+      "roles": [
+        "Carry",
+        "Escape",
+        "Disabler",
+        "Initiator"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "title": "GO TEAM DAGON",
+      "content": "SEMUANYA BELI DAGON",
+      "heroes": [
+        {
+          "id": 1,
+          "name": "npc_dota_hero_antimage",
+          "localized_name": "Anti-Mage",
+          "primary_attr": "agi",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8e/Anti-Mage_icon.png/176px-Anti-Mage_icon.png?version=5da70599d2b42523c1b9b3e26723a1d3",
+          "taken": true,
+          "roles": [
+            "Carry",
+            "Escape",
+            "Nuker"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "npc_dota_hero_axe",
+          "localized_name": "Axe",
+          "primary_attr": "str",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/23/Axe_icon.png/176px-Axe_icon.png?version=ba9981a44f895c3655b7d6a68a7e17c4",
+          "taken": true,
+          "roles": [
+            "Initiator",
+            "Durable",
+            "Disabler",
+            "Jungler"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "npc_dota_hero_bane",
+          "localized_name": "Bane",
+          "primary_attr": "int",
+          "attack_type": "Ranged",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c3/Bane_icon.png/176px-Bane_icon.png?version=acc25b47c4bbe985b72bc86eab535352",
+          "taken": true,
+          "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Durable"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "npc_dota_hero_bloodseeker",
+          "localized_name": "Bloodseeker",
+          "primary_attr": "agi",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/5/56/Bloodseeker_icon.png/176px-Bloodseeker_icon.png?version=d5e427bb5a2d7472ec1ddac25ba55cdc",
+          "taken": true,
+          "roles": [
+            "Carry",
+            "Disabler",
+            "Jungler",
+            "Nuker",
+            "Initiator"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "npc_dota_hero_crystal_maiden",
+          "localized_name": "Crystal Maiden",
+          "primary_attr": "int",
+          "attack_type": "Ranged",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/2/27/Crystal_Maiden_icon.png/176px-Crystal_Maiden_icon.png?version=2b145212b37ea1d4b6dd7cfb88219aef",
+          "taken": true,
+          "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Jungler"
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "qwd",
+      "content": "qwdqdqwd",
+      "heroes": [
+        {
+          "id": 1,
+          "name": "npc_dota_hero_antimage",
+          "localized_name": "Anti-Mage",
+          "primary_attr": "agi",
+          "attack_type": "Melee",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/8e/Anti-Mage_icon.png/176px-Anti-Mage_icon.png?version=5da70599d2b42523c1b9b3e26723a1d3",
+          "taken": false,
+          "roles": [
+            "Carry",
+            "Escape",
+            "Nuker"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "npc_dota_hero_bane",
+          "localized_name": "Bane",
+          "primary_attr": "int",
+          "attack_type": "Ranged",
+          "icon": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/c/c3/Bane_icon.png/176px-Bane_icon.png?version=acc25b47c4bbe985b72bc86eab535352",
+          "taken": false,
+          "roles": [
+            "Support",
+            "Disabler",
+            "Nuker",
+            "Durable"
+          ]
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
